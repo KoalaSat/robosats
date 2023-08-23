@@ -69,6 +69,7 @@
   "Recovery": "Восстановление",
   "Start": "Старт",
   "#12": "Phrases in basic/RobotPage/index.tsx",
+<<<<<<< HEAD
   "Connecting to TOR": "Подключение к TOR",
   "Connection encrypted and anonymized using TOR.": "Соединение зашифровано и анонимизировано с помощью TOR.",
   "Not enough entropy, make it more complex": "Недостаточно энтропии, усложните",
@@ -79,6 +80,18 @@
   "Connecting to TOR network": "Подключение к сети TOR",
   "Connection error": "Ошибка подключения",
   "Initializing TOR daemon": "Инициализация TOR daemon",
+=======
+  "Connecting to Tor": "Connecting to Tor",
+  "Connection encrypted and anonymized using Tor.": "Connection encrypted and anonymized using Tor.",
+  "Not enough entropy, make it more complex": "Not enough entropy, make it more complex",
+  "The token is too short": "The token is too short",
+  "This ensures maximum privacy, however you might feel the app behaves slow. If connection is lost, restart the app.": "This ensures maximum privacy, however you might feel the app behaves slow. If connection is lost, restart the app.",
+  "#13": "Phrases in components/TorConnection.tsx",
+  "Connected to Tor network": "Connected to Tor network",
+  "Connecting to Tor network": "Connecting to Tor network",
+  "Connection error": "Connection error",
+  "Initializing Tor daemon": "Initializing Tor daemon",
+>>>>>>> e6669f78 (Replace react-native-tor with official Tor android client)
   "#14": "Phrases in components/BookTable/BookControl.tsx",
   "ANY": "Любой",
   "Buy": "Купить",

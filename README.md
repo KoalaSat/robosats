@@ -13,8 +13,15 @@ RoboSats is a simple and private way to exchange bitcoin for national currencies
 </div>
 
 ## Try it out!
+<<<<<<< HEAD
 - **TOR URL:** [**RoboDex**arjwtfryec556cjdz3dfa7u47saek6lkftnkgshvgg2kcumqd.onion](http://robodexarjwtfryec556cjdz3dfa7u47saek6lkftnkgshvgg2kcumqd.onion) ( Open with [Tor Browser](https://www.torproject.org/download/))
 - Clearnet URL: [dex.robosats.com](https://unsafe.robosats.com) (not recommended!)
+=======
+### **Bitcoin Mainnet**
+- **Tor URL:** [**RoboSats**6tkf3eva7x2voqso3a5wcorsnw34jveyxfqi2fu7oyheasid.onion](http://robosats6tkf3eva7x2voqso3a5wcorsnw34jveyxfqi2fu7oyheasid.onion) ( Open with [Tor Browser](https://www.torproject.org/download/))
+- Clearnet URL: [unsafe.robosats.com](https://unsafe.robosats.com) (not recommended!)
+- Clearnet Mirrors: [unsafe2](https://unsafe2.robosats.com) || [unsafe3](https://unsafe3.robosats.com) (not recommended!)
+>>>>>>> e6669f78 (Replace react-native-tor with official Tor android client)
 
 *Always use [Tor Browser](https://www.torproject.org/download/) and .onion for best privacy. The Clearnet URL redirects to a third party Tor2web service. Your privacy cannot be guaranteed to be respected. Use clearnet only to check around the app, never use for trading!*
 

@@ -67,9 +67,15 @@ Nothing wrong, but there can be disappointments. It is possible that the conditi
 
 ## **LOSS OF PRIVACY**
 
+<<<<<<< HEAD
 RoboSats is an exchange focused on user privacy because personal information is not required. The optimal setup for RoboSats is through a recommended access method like the private TOR browser.
 
 Once you leave TOR to a third party application (i.e., Telegram) you lose privacy.
+=======
+Robosats is an exchange focused on user privacy, that is why KYC is not used and its optimal use is oriented to be used with the Tor browser.
+
+Once you leave Tor to a third party application (Telegram in this case) you are losing privacy.
+>>>>>>> e6669f78 (Replace react-native-tor with official Tor android client)
 
 This bot, like any other, will store your Telegram user ID as it is necessary to contact the user. It will also store the data of your alert.
 

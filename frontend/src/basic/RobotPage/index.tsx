@@ -44,7 +44,7 @@ const RobotPage = (): JSX.Element => {
     const token = urlToken ?? garage.currentSlot;
     if (token !== undefined && token !== null && page === 'robot') {
       setInputToken(token);
-      if (window.NativeRobosats === undefined || torStatus === '"Done"') {
+      if (window.NativeRobosats === undefined || torStatus === 'ON') {
         getGenerateRobot(token);
         setView('profile');
       }
@@ -83,7 +83,7 @@ const RobotPage = (): JSX.Element => {
     garage.deleteSlot();
   };
 
-  if (!(window.NativeRobosats === undefined) && !(torStatus === 'DONE' || torStatus === '"Done"')) {
+  if (!(window.NativeRobosats === undefined) && !(torStatus === 'ON')) {
     return (
       <Paper
         elevation={12}
@@ -95,7 +95,7 @@ const RobotPage = (): JSX.Element => {
         <Grid container direction='column' alignItems='center' spacing={1} padding={2}>
           <Grid item>
             <Typography align='center' variant='h6'>
-              {t('Connecting to TOR')}
+              {t('Connecting to Tor')}
             </Typography>
           </Grid>
           <Grid item>
@@ -122,7 +122,7 @@ const RobotPage = (): JSX.Element => {
           </Grid>
           <Grid item>
             <Alert>
-              <AlertTitle>{t('Connection encrypted and anonymized using TOR.')}</AlertTitle>
+              <AlertTitle>{t('Connection encrypted and anonymized using Tor.')}</AlertTitle>
               {t(
                 'This ensures maximum privacy, however you might feel the app behaves slow. If connection is lost, restart the app.',
               )}

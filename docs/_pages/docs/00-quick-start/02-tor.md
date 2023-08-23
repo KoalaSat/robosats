@@ -1,14 +1,15 @@
 ---
 layout: single
-title: "The TOR Network"
+title: "The Tor Network"
 permalink: /docs/tor/
 toc: true
 toc_sticky: true
 sidebar:
-  title: '<img id="side-icon-verybig" src="/assets/vector/tor.svg"/>TOR'
+  title: '<img id="side-icon-verybig" src="/assets/vector/tor.svg"/>Tor'
   nav: docs
 src: "_pages/docs/00-quick-start/02-tor.md"
 ---
+<<<<<<< HEAD
 
 [The Onion Router](https://www.torproject.org/download/), or TOR for short, is a FOSS and privacy-oriented internet browser that enables anonymous communication. Thousands of volunteer relays make up the network to direct internet traffic worldwide for free. RoboSats utilizes TOR as a layer of privacy and therefore [accessing RoboSats](/docs/access/#-privately-with-tor) via TOR is strongly recommended.
 
@@ -21,3 +22,6 @@ Utilizing TOR has drawbacks such as lower network connection speeds, sporadic [d
 Keep this in mind when using RoboSats. It is important to back up your robot's secret token in the event TOR network experiences connection issues.
 
 {% include improve %}
+=======
+{% include wip %}
+>>>>>>> e6669f78 (Replace react-native-tor with official Tor android client)

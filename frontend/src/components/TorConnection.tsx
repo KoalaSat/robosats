@@ -62,13 +62,13 @@ const TorConnectionBadge = (): JSX.Element => {
     return <></>;
   }
 
-  if (torStatus === 'NOTINIT') {
+  if (torStatus === 'OFF') {
     return (
       <TorIndicator
         color='primary'
         progress={true}
         tooltipOpen={true}
-        title={t('Initializing TOR daemon')}
+        title={t('Initializing Tor daemon')}
       />
     );
   } else if (torStatus === 'STARTING') {
@@ -77,11 +77,11 @@ const TorConnectionBadge = (): JSX.Element => {
         color='warning'
         progress={true}
         tooltipOpen={true}
-        title={t('Connecting to TOR network')}
+        title={t('Connecting to Tor network')}
       />
     );
-  } else if (torStatus === '"Done"' || torStatus === 'DONE') {
-    return <TorIndicator color='success' progress={false} title={t('Connected to TOR network')} />;
+  } else if (torStatus === 'ON') {
+    return <TorIndicator color='success' progress={false} title={t('Connected to Tor network')} />;
   } else {
     return (
       <TorIndicator
