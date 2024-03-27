@@ -123,7 +123,3 @@ contribute:
         url: /contribute/outreach/
       - title: '<span class="side-bar-item">&nbsp;&nbsp;<img id="side-icon-small" src="/assets/vector/bitcoin.svg"/>Donate</span>'
         url: /contribute/donate/
-<<<<<<< HEAD
-
-=======
->>>>>>> e6669f78 (Replace react-native-tor with official Tor android client)

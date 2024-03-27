@@ -10,14 +10,13 @@ sidebar:
 src: "_pages/docs/00-quick-start/03-access.md"
 ---
 
-<<<<<<< HEAD
 ## <img style='width:32px;height:32px' src='/assets/vector/tor.svg'/> RoboSats federated client with TOR
 
 A safe and very private way to access RoboSats federated client is through the Onion address. You need [TOR browser](/docs/tor/) and access via the link:
 
 >
 [<b>robodex</b>arjwtfryec556cjdz3dfa7u47saek6lkftnkgshvgg2kcumqd.onion](http://robodexarjwtfryec556cjdz3dfa7u47saek6lkftnkgshvgg2kcumqd.onion/)
- 
+
 You can also open the shortcut [dex.robosats.com](https://dex.robosats.com) in Tor Browser and get instantly redirected to the Onion site.
 
 **Private:** Your connection is encrypted end-to-end and relaid by several layers of nodes, thus making tracking harder.
@@ -27,10 +26,6 @@ You can also open the shortcut [dex.robosats.com](https://dex.robosats.com) in T
 ## <img style='width:32px;height:32px' src='/assets/vector/tor.svg'/> RoboSats Experimental coordinator with TOR
 
 You can access the Experimental coordinator through this Onion address. You need [TOR browser](/docs/tor/) and access via the link:
-=======
-## <img style='width:32px;height:32px' src='/assets/vector/tor.svg'/> Privately with Tor
-A safe and very private way to use RoboSats is through the Onion address. You need [Tor Browser](/docs/tor/).
->>>>>>> e6669f78 (Replace react-native-tor with official Tor android client)
 
 > [<b>robosats</b>6tkf3eva7x2voqso3a5wcorsnw34j<br/>veyxfqi2fu7oyheasid.onion](http://robosats6tkf3eva7x2voqso3a5wcorsnw34jveyxfqi2fu7oyheasid.onion/)
 
@@ -47,12 +42,8 @@ I2P is another safe and private way to access RoboSats. You need [I2P browser](h
 > [<b>robosats.i2p</b>?i2paddresshelper=r7r4sckft<br/>6ptmk4r2jajiuqbowqyxiwsle4iyg4fijtoordc6z7a.b32.i2p](http://robosats.i2p?i2paddresshelper=r7r4sckft6ptmk4r2jajiuqbowqyxiwsle4iyg4fijtoordc6z7a.b32.i2p)
 
 ## <i class="fa-solid fa-window-maximize"></i> Unsafely in Clearnet
-<<<<<<< HEAD
 
 There is an unsafe way to view the RoboSats order book without TOR that relies on third party tor2web services. With this URL, you can access RoboSats from any browser, but using this URL is **strongly ill-advised!**
-=======
-There is an unsafe way to view RoboSats without Tor that relies on third party tor2web services. With this URL you can access RoboSats from any browser, but using this URL is **highly unrecommended!**
->>>>>>> e6669f78 (Replace react-native-tor with official Tor android client)
 
 > [unsafe.robosats.com](https://unsafe.robosats.com)
 

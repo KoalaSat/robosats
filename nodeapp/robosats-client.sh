@@ -20,7 +20,6 @@ testnet_exp_port=1001
 mainnet_exp_socat="socat tcp4-LISTEN:${mainnet_exp_port},reuseaddr,fork,keepalive,bind=127.0.0.1 SOCKS4A:${TOR_PROXY_IP:-127.0.0.1}:${mainnet_exp_onion}:80,socksport=${TOR_PROXY_PORT:-9050}"
 testnet_exp_socat="socat tcp4-LISTEN:${testnet_exp_port},reuseaddr,fork,keepalive,bind=127.0.0.1 SOCKS4A:${TOR_PROXY_IP:-127.0.0.1}:${testnet_exp_onion}:80,socksport=${TOR_PROXY_PORT:-9050}"
 
-<<<<<<< HEAD
 ################################
 # Temple of Sats
 # Mainnet
@@ -72,6 +71,3 @@ testnet_veneto_socat="socat tcp4-LISTEN:${testnet_veneto_port},reuseaddr,fork,ke
 
 # RUN!
 $mainnet_exp_socat & $testnet_exp_socat & $mainnet_temple_socat & $testnet_temple_socat & $mainnet_satstralia_socat & $testnet_satstralia_socat & $mainnet_lake_socat & $testnet_lake_socat & $mainnet_veneto_socat & $testnet_veneto_socat & nginx
-=======
-$experimental_socat & nginx
->>>>>>> e6669f78 (Replace react-native-tor with official Tor android client)
